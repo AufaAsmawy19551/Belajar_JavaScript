@@ -1,17 +1,17 @@
 let kendaraan = [];
 
 kendaraan.push({
-  tipe: "motor",
+  tipe: "Motor",
   roda: 2,
 })
 
 kendaraan.push({
-  tipe: "beack motor",
+  tipe: "Beack Motor",
   roda: 3,
 })
 
 kendaraan.push({
-  tipe: "mobil",
+  tipe: "Mobil",
   roda: 4,
 })
 
@@ -21,7 +21,7 @@ kendaraan.push({
 })
 
 kendaraan.push({
-  tipe: "truk",
+  tipe: "Truk",
   roda: 12,
 })
 
