@@ -70,3 +70,7 @@ console.log(h + ' ' + i); //Aufa Asmawy
 let j = 10;
 let k = 20;
 console.log(j > k ? 'h lebih besar dari i' : 'h kurang dari i'); //h kurang dari i
+
+//Null Coalescing
+let l;
+console.log(l ?? "Nilai Default");
