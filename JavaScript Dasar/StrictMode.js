@@ -7,7 +7,7 @@ const student = {
     country: 'Indonesia',
     province: 'Jawa Tengah',
   },
-}
+};
 
 //Error
 // with (student) {
