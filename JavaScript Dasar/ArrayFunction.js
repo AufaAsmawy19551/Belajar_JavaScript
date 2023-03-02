@@ -20,17 +20,17 @@ console.log(d); //[0, 10, 20, 30, 40, 50]
 
 //Foreach
 let e = [10, 20, 30, 40, 50];
-let total = 0
-e.forEach((e) => total += e);
+let total = 0;
+e.forEach((e) => (total += e));
 console.log(total); //150
 
 //Filter
 let f = [10, 20, 30, 40, 50];
-console.log(f.filter(e =>  e >= 30)); //[ 30, 40, 50 ]
+console.log(f.filter((e) => e >= 30)); //[ 30, 40, 50 ]
 
 //Map
 let g = [10, 20, 30, 40, 50];
-console.log(f.map(e =>  e / 10)); //[ 1, 2, 3, 4, 5 ] 
+console.log(f.map((e) => e / 10)); //[ 1, 2, 3, 4, 5 ]
 
 //Concat
 let h = [10, 20, 30, 40, 50];
