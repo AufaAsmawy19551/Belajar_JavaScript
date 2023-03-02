@@ -73,4 +73,4 @@ console.log(j > k ? 'h lebih besar dari i' : 'h kurang dari i'); //h kurang dari
 
 //Null Coalescing
 let l;
-console.log(l ?? "Nilai Default");
+console.log(l ?? 'Nilai Default');

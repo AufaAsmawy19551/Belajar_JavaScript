@@ -26,15 +26,15 @@ switch (nilai) {
     break;
   case 'C':
     console.log('Cukup');
-    break; 
+    break;
   case 'D':
     console.log('Kurang');
     break;
   case 'E':
-    console.log("Sangat Kurang");
+    console.log('Sangat Kurang');
     break;
   default:
-    console.log("Ulang Tahun Depan!");
+    console.log('Ulang Tahun Depan!');
 }
 
 //Ternary operator
