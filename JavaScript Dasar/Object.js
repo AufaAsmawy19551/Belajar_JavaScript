@@ -5,7 +5,7 @@ let student = {
     country: 'Indonesia',
     province: 'Jawa Tengah',
   },
-}
+};
 
 console.log(`
 name: ${student.name}
@@ -13,7 +13,7 @@ age: ${student.age}
 country: ${student?.address?.country}
 province: ${student?.address?.province}
 city: ${student?.address?.city}
-`)
+`);
 
 with (student) {
   console.log(`name: ${name}`);
@@ -23,5 +23,5 @@ with (student) {
 }
 
 if ('name' in student) {
-  console.log(`Hello ${student.name}`)
+  console.log(`Hello ${student.name}`);
 }
