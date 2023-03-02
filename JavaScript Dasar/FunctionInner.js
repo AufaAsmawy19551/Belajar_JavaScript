@@ -1,6 +1,6 @@
-function outer(){
-  function inner(){
-    console.log("Inner");
+function outer() {
+  function inner() {
+    console.log('Inner');
   }
 
   inner();
