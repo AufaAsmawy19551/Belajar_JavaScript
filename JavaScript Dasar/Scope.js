@@ -1,14 +1,14 @@
 //Global variable
-let a = "global a";
+let a = 'global a';
 
-function first(){
+function first() {
   //Local variable
   let b = 'first local b';
   console.log(a); //global a
   console.log(b); //first local b
 }
 
-function second(){
+function second() {
   //Local variable
   let b = 'second local b';
   console.log(a); //global a
