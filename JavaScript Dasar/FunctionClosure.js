@@ -1,7 +1,7 @@
-function createAdder(value){
-  const owner = "Eko";
+function createAdder(value) {
+  const owner = 'Eko';
 
-  function add(param){
+  function add(param) {
     console.log(owner);
     return value + param;
   }
