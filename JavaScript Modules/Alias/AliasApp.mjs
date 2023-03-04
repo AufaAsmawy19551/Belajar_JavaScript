@@ -1,5 +1,5 @@
 import { name, sum, Company } from './Module1.mjs';
-import { name as nama, sum as total, Company as Perusahaan } from './Module1.mjs';
+import { name as nama, sum as total, Company as Perusahaan } from './Module2.mjs';
 
 console.log(name);
 console.log(nama);
