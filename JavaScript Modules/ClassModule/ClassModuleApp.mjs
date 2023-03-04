@@ -1,4 +1,5 @@
 import { Employee, Manager } from './ClassModule.mjs';
+
 const eko = new Employee('Eko', 'Jakarta');
 eko.sayHello('Joko');
 
