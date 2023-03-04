@@ -18,4 +18,11 @@ sayHelloPromise().then((data) => console.log(data));
 sayHelloAsync().then((data) => console.log(data));
 sayHelloPromiseInAsync().then((data) => console.log(data));
 
+const promiseAll = Promise.all([sayHelloPromise(), sayHelloAsync(), sayHelloPromiseInAsync()]);
+promiseAll.then((data) => console.log(data));
 
+const promiseAny = Promise.any([sayHelloPromise(), sayHelloAsync(), sayHelloPromiseInAsync()]);
+promiseAny.then((data) => console.log(data));
+
+const promiseRace = Promise.race([sayHelloPromise(), sayHelloAsync(), sayHelloPromiseInAsync()]);
+promiseRace.then((data) => console.log(data));
