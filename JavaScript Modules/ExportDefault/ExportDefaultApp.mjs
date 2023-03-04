@@ -1,6 +1,10 @@
-import author, { address } from './DefaultVariable.mjs';
-import sayHello, { sayGoodBye } from './DefaultFunction.mjs';
-import Employee, { Manager } from './DefaultClass.mjs';
+// import author, { address } from './DefaultVariable.mjs';
+// import sayHello, { sayGoodBye } from './DefaultFunction.mjs';
+// import Employee, { Manager } from './DefaultClass.mjs';
+
+import { default as author, address } from './DefaultVariable.mjs';
+import { default as sayHello, sayGoodBye } from './DefaultFunction.mjs';
+import { default as Employee, Manager } from './DefaultClass.mjs';
 
 console.log(`name: ${author}`);
 console.log(`address: ${address}`);
