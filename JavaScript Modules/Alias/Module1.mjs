@@ -7,3 +7,4 @@ function sum(first, second) {
 class Company {}
 
 export { name, sum, Company };
+ 
