@@ -27,7 +27,7 @@ function getProductNamesPromise() {
 }
 
 async function getProductNamesAsync() {
-  const products = await getProducts()
+  const products = await getProducts();
   return products.map((product) => {
     return product.title;
   });
